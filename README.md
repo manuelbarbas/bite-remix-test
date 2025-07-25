@@ -1,40 +1,34 @@
-# Welcome to Remix!
+# BITE Protocol Test - Remix
 
-- 📖 [Remix docs](https://remix.run/docs)
+This project demonstrates BITE Protocol integration using **Remix.run** and **Ethers.js** for secure ERC-20 token minting on the FAIR testnet.
 
-## Development
+## Framework & Language
 
-Run the dev server:
+- **Language**: TypeScript
+- **Framework**: [Remix.run](https://remix.run/) with Vite
+- **BITE Protocol**: Blockchain encryption for FAIR network transactions
+- **Ethers.js**: Ethereum library for interacting with smart contracts
 
-```sh
+## Features
+
+- ERC-20 token minting with BITE encryption
+- React components powered by Remix's routing and loader/actions
+- Optimized Vite-powered build and dev server
+- FAIR testnet support
+
+## Prerequisites
+
+- Node.js (v20 or higher)
+- A funded private key for the FAIR testnet
+
+## Installation & Setup
+
+### 1. Install Dependencies
+```bash
+npm install
+```
+
+### 2. Run the Application
+```bash
 npm run dev
 ```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
